@@ -1,0 +1,39 @@
+{
+    "Login": "Login",
+    "Email": "Email",
+    "Password": "Password",
+    "Login here": "Login here",
+    "Don't have an account?": "Don't have an account?",
+    "Register": "Register",
+    "Full Name": "Full Name",
+    "Password Confirmation": "Password Confirmation",
+    "Create one": "Create one",
+    "Already have an account?": "Already have an account?",
+
+    "Movies": "Movies",
+    "Dashboard": "Dashboard",
+    "All Movies": "All Movies",
+    "Search movies...": "Search movies...",
+    "Poster": "Poster",
+    "Title": "Title",
+    "Year": "Year",
+    "Type": "Type",
+    "Action": "Action",
+    "Enter a keyword to search movies.": "Enter a keyword to search movies.",
+    "Loading...": "Loading...",
+    "Loading more movies...": "Loading more movies...",
+    "All movies loaded.": "All movies loaded.",
+
+    "My Favorites": "My Favorites",
+    "Favorites": "Favorites",
+    "Favorite Movies": "Favorite Movies",
+    "No favorites yet": "No favorites yet",
+    "Start adding movies to your favorites list!": "Start adding movies to your favorites list!",
+    "Search Movies": "Search Movies",
+
+    "Pages": "Pages",
+    "Guest": "Guest",
+
+    "Hi": "Hi",
+    "Logout": "Logout"
+}

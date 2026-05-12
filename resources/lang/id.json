@@ -1,0 +1,39 @@
+{
+    "Login": "Masuk",
+    "Email": "Email",
+    "Password": "Kata Sandi",
+    "Login here": "Masuk di sini",
+    "Don't have an account?": "Belum punya akun?",
+    "Register": "Daftar",
+    "Full Name": "Nama Lengkap",
+    "Password Confirmation": "Konfirmasi Kata Sandi",
+    "Create one": "Buat akun",
+    "Already have an account?": "Sudah punya akun?",
+
+    "Movies": "Film",
+    "Dashboard": "Dashboard",
+    "All Movies": "Semua Film",
+    "Search movies...": "Cari film...",
+    "Poster": "Poster",
+    "Title": "Judul",
+    "Year": "Tahun",
+    "Type": "Tipe",
+    "Action": "Aksi",
+    "Enter a keyword to search movies.": "Masukkan kata kunci untuk mencari film.",
+    "Loading...": "Memuat...",
+    "Loading more movies...": "Memuat lebih banyak film...",
+    "All movies loaded.": "Semua film telah dimuat.",
+
+    "My Favorites": "Favorit Saya",
+    "Favorites": "Favorit",
+    "Favorite Movies": "Film Favorit",
+    "No favorites yet": "Belum ada film favorit",
+    "Start adding movies to your favorites list!": "Mulai tambahkan film ke daftar favorit Anda!",
+    "Search Movies": "Cari Film",
+
+    "Pages": "Halaman",
+    "Guest": "Tamu",
+
+    "Hi": "Hai",
+    "Logout": "Keluar"
+}
