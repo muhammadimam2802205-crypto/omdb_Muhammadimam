@@ -27,6 +27,7 @@
 
   <!-- Page Specific JS File -->
   <script src="{{asset('assets/js/page/index.js')}}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   
   <!-- Template JS File -->
   <script src="{{asset('assets/js/scripts.js')}}"></script>
@@ -35,5 +36,6 @@
     const year = document.getElementById('year');
     year.innerHTML = new Date().getFullYear();
   </script>
+  @stack('scripts')
 </body>
 </html>

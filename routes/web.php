@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\PanelControl\DashboardController;
+use App\Http\Controllers\PanelControl\MovieController;
+use App\Http\Controllers\PanelControl\FavController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/lang/{locale}', function ($locale) {
@@ -21,7 +23,8 @@ Route::post('/login',[AuthController::class,'login_process'])
 ->name('signin');
 Route::get('/logout', [AuthController::class, 'logout'])->name('signout');
 
-
+Route::post('favorites/add', [FavController::class, 'add']);
+Route::delete('favorites/{imdbID}', [FavController::class, 'destroy']);
 // Route::get('/dashboard', function(){
 //     return view('controlpanel.dashboard');
 // })->name('dashboard');
@@ -33,10 +36,11 @@ Route::get('/logout', [AuthController::class, 'logout'])->name('signout');
 // Route group untuk panel admin
 Route::prefix('panel-control')->middleware(['auth'])->group(function () {
 
-    Route::get('/dashboard', [DashboardController::class, 'index'])
+    Route::get('/dashboard', [MovieController::class, 'index'])
         ->name('dashboard');
-    Route::get('/Fav', [DashboardController::class, 'fav'])
+    Route::get('/Fav', [FavController::class, 'index'])
         ->name('Fav');
-    
+    Route::get('/movies/{imdbID}', [MovieController::class, 'detail'])
+        ->name('movies.detail');
 
 });
